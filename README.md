@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# BudgetBallad
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BudgetBallad is a comprehensive personal finance dashboard designed to help you manage your finances effectively. It provides tools for budgeting, expense analysis, and real-time transaction tracking through CSV uploads or Plaid connectivity.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Real-time transaction data via CSV or Plaid
+- Dynamic budgeting and planning tools
+- Detailed expense analysis
+- Personalized recommendations
+- Customizable alerts for budget limits and spending trends
+- Modern, responsive design
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Follow these instructions to set up and run BudgetBallad on your local machine.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+Ensure you have the following installed:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js**: Download and install from [nodejs.org](https://nodejs.org/).
+- **Git**: Download and install from [git-scm.com](https://git-scm.com/).
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repository**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ - Open your terminal and run the following command to clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/Jnich145/BudgetBallad.git
+```
 
-### `npm run eject`
+### Navigate to the Project Directory
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+cd BudgetBallad
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+ - Run the following command to install all necessary packages:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+### Running the Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ - Start the Development Server
+ - Run the following command to start the application:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
+### Open in Browser
+ - Open your web browser and go to http://localhost:3000 to view the application.
+   Usage
+ - Upload CSV: Click on "Upload CSV" to import your transaction data.
+ - Connect with Plaid: Use the Plaid integration for real-time data (requires Plaid     account setup).
+ - Explore Features: Navigate through the dashboard to explore budgeting tools, expense analysis, and insights.
+
+### Troubleshooting
+ - If you encounter issues, ensure all dependencies are installed and your Node.js version is up-to-date.
+ - Check the terminal for error messages and follow any instructions provided.
+
+### Contributing
+ - Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+### License
+ - This project is licensed under the MIT License. By following these instructions, even non-technical users should be able to set up and run BudgetBallad with ease. If you have any questions or need further assistance, please feel free to reach out.
